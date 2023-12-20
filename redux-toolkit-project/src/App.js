@@ -22,15 +22,15 @@ function App() {
   const [createPost, resInfom]=useCreatePostMutation();
 
 
-  console.log("Response Information:", responseInfo);
+  // console.log("Response Information:", responseInfo);
   // console.log("Response Information:", responsein);
   // console.log("Response Information:",resInfom);
 
 
-  if(loading)
-  {
-    console.log("Loading...............");
-  }
+  // if(loading)
+  // {
+  //   console.log("Loading...............");
+  // }
 
  //............ creating object to pass it in useCreatePostMutation..............
   // const create={
